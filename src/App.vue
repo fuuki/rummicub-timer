@@ -1,28 +1,50 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <StartPage
+      v-if="display=='startPage'"
+      @start="start"
+    />
+    <Timer
+      v-if="display=='timer'"
+      @timeover="timeover"
+    />
+    <Timeover
+      v-if="display=='timeover'"
+      @top="top"
+    />
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue';
+import Timer from './components/Timer.vue';
+import StartPage from './components/StartPage.vue';
+import Timeover from './components/Timeover.vue';
 
 export default {
   name: 'app',
   components: {
-    HelloWorld,
+    Timer,
+    StartPage,
+    Timeover,
+  },
+  data() {
+    return {
+      display: 'startPage',
+    };
+  },
+  methods: {
+    start() {
+      this.display = 'timer';
+    },
+    timeover() {
+      this.display = 'timeover';
+    },
+    top() {
+      this.display = 'startPage';
+    },
   },
 };
 </script>
 
 <style>
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
 </style>
