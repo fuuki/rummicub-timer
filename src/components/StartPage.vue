@@ -1,7 +1,7 @@
 <template>
   <div class="start">
     <div id="title-text">
-      Rummicub timer
+      Rummikub timer
     </div>
     <div
       class="start-button"

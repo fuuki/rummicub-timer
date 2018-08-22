@@ -14,10 +14,10 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.4.1/workbox-sw.js");
 
 importScripts(
-  "/rummicub-timer/precache-manifest.9de3fba0ef3b71ca95ff994b1c8d0815.js"
+  "/rummikub-timer/precache-manifest.e3f77e732ba537c3d8c7302f18894395.js"
 );
 
-workbox.core.setCacheNameDetails({prefix: "rummicub-timer"});
+workbox.core.setCacheNameDetails({prefix: "rummikub-timer"});
 
 /**
  * The workboxSW.precacheAndRoute() method efficiently caches and responds to

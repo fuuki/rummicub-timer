@@ -1,6 +1,6 @@
 {
-  "name": "rummicub-timer",
-  "short_name": "rummicub-timer",
+  "name": "rummikub-timer",
+  "short_name": "rummikub-timer",
   "icons": [
     {
       "src": "./img/icons/android-chrome-192x192.png",

@@ -1,4 +1,4 @@
-# rummicub-timer
+# rummikub-timer
 
 ## Project setup
 ```
