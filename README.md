@@ -5,7 +5,7 @@
 
 # How to use
 
-- Please go to -> https://fuuki.github.io/rummicub-timer/
+- Please go to -> https://fuuki.github.io/rummikub-timer/
 - You push the start button, and the timer starts countdown.
 - Click the number to reset the count (to 60 seconds).
 - This supports PWA.
