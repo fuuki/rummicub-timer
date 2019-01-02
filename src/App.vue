@@ -1,50 +1,45 @@
 <template>
   <div id="app">
-    <StartPage
-      v-if="display=='startPage'"
-      @start="start"
-    />
-    <Timer
-      v-if="display=='timer'"
-      @timeover="timeover"
-    />
-    <Timeover
-      v-if="display=='timeover'"
-      @top="top"
-    />
+    <StartPage v-if="display=='startPage'" @start="start"/>
+    <Timer v-if="display=='timer'" @timeover="timeover"/>
+    <Timeover v-if="display=='timeover'" @top="top"/>
   </div>
 </template>
 
 <script>
-import Timer from './components/Timer.vue';
-import StartPage from './components/StartPage.vue';
-import Timeover from './components/Timeover.vue';
+import Timer from "./components/Timer.vue";
+import StartPage from "./components/StartPage.vue";
+import Timeover from "./components/Timeover.vue";
 
 export default {
-  name: 'app',
+  name: "app",
   components: {
     Timer,
     StartPage,
-    Timeover,
+    Timeover
   },
   data() {
     return {
-      display: 'startPage',
+      display: "startPage"
     };
   },
   methods: {
     start() {
-      this.display = 'timer';
+      this.display = "timer";
     },
     timeover() {
-      this.display = 'timeover';
+      this.display = "timeover";
     },
     top() {
-      this.display = 'startPage';
-    },
-  },
+      this.display = "startPage";
+    }
+  }
 };
 </script>
 
 <style>
+html,
+body {
+  height: 100%;
+}
 </style>
