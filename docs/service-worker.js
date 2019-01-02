@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.4.1/workbox-sw.js");
 
 importScripts(
-  "/rummikub-timer/precache-manifest.e560bd33db90d0820a1eefa6ce8b00e5.js"
+  "/rummikub-timer/precache-manifest.e07002f2440ea118401f961b0940ebd3.js"
 );
 
 workbox.core.setCacheNameDetails({prefix: "rummikub-timer"});

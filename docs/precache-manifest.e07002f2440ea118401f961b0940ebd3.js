@@ -8,15 +8,15 @@ self.__precacheManifest = [
     "url": "/rummikub-timer/js/chunk-vendors.a72edac2.js"
   },
   {
-    "revision": "0bdee6a0ddc7e4f248e5",
-    "url": "/rummikub-timer/js/app.778764d7.js"
+    "revision": "28d3a03b07e03518b90d",
+    "url": "/rummikub-timer/js/app.e9259f49.js"
   },
   {
-    "revision": "2d616eb2219dd64f8e0495e6d526b146",
+    "revision": "68d033dca9e0aeb15dcfcad77222ec52",
     "url": "/rummikub-timer/index.html"
   },
   {
-    "revision": "0bdee6a0ddc7e4f248e5",
-    "url": "/rummikub-timer/css/app.36dfb586.css"
+    "revision": "28d3a03b07e03518b90d",
+    "url": "/rummikub-timer/css/app.71264de9.css"
   }
 ];
