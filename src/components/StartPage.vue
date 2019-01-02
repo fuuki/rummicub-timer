@@ -1,22 +1,15 @@
 <template>
   <div class="start">
-    <div id="title-text">
-      Rummikub timer
-    </div>
-    <div
-      class="start-button"
-      @click="$emit('start')"
-    >
-      <div class="button-text">
-        START
-      </div>
+    <div id="title-text">Rummikub timer</div>
+    <div class="start-button" @click="$emit('start')">
+      <div class="button-text">START</div>
     </div>
   </div>
 </template>
 
 <script>
 export default {
-  name: 'StartPage',
+  name: "StartPage"
 };
 </script>
 
@@ -28,7 +21,7 @@ export default {
   align-items: center;
   flex-direction: column;
   flex-wrap: wrap;
-  height: 100vh;
+  height: 100%;
 }
 #title-text {
   font-size: 5vw;
